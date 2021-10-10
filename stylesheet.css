@@ -1,0 +1,45 @@
+button {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.calculator {
+    width: 300px;
+}
+.equal {
+height: 50px;
+width: 25%;
+margin: 0;
+border: 1px solid black;
+padding: 5px;
+background-color: green;
+}
+.clear {
+height: auto;
+width: 25%;
+margin: 0;
+border: 1px solid black;
+padding: 5px;
+background-color: green;
+}
+.action-button {
+height: 50px;
+width: 25%;
+margin: 0;
+border: 1px solid black;
+padding: 5px;
+background-color: green;
+}
+.current-output {
+height: 50px;
+width: 100%;
+padding: 5px;
+background-color: gray;
+border: 1px solid black;
+font-size: 30px;
+font-family:'Times New Roman', Times, serif;
+font-weight: normal;
+}
+.row {
+display: flex;
+}
