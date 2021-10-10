@@ -4,75 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="stylesheet.css">
-    <script  src="main.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-<div class="calc">
-   <div class="row">
-       <div class="button" id="clear">
-           <p>C</p>
-       </div>
-       <div class="screen">
-       </div>
-   </div>
-   <div class="row">
-       <div class="button">
-           <p>7</p>
-       </div>
-       <div class="button">
-           <p>8</p>
-       </div>
-       <div class="button">
-           <p>9</p>
-       </div>
-       <div class="button">
-           <p>/</p>
-       </div>
-   </div>
-   <div class="row">
-       <div class="button">
-           <p>4</p>
-       </div>
-       <div class="button">
-           <p>5</p>
-       </div>
-       <div class="button">
-           <p>6</p>
-       </div>
-       <div class="button">
-           <p>X</p>
-       </div>
-   </div>
-   <div class="row">
-       <div class="button">
-           <p>1</p>
-       </div>
-       <div class="button">
-           <p>2</p>
-       </div>
-       <div class="button">
-           <p>3</p>
-       </div>
-       <div class="button">
-           <p>-</p>
-       </div>
-   </div>
-   <div class="row">
-           <div class="button">
-               <p>0</p>
-            </div>
-           <div class="button">
-               <p>.</p>
-           </div>
-       <div class="button">
-           <p>=</p>
-       </div>
-       <div class="button">
-           <p>+</p>
-       </div>
-   </div>
-</div>
+    <div class="calculator">
+        <div class="row">
+            <button class="clear">C</button>
+            <div class=current-output></div>
+        </div>
+        <div class="row">
+            <button class="action-button">7</button>
+            <button class="action-button">8</button>
+            <button class="action-button">9</button>
+            <button class="action-button">/</button>
+        </div>
+        <div class="row">
+            <button class="action-button">4</button>
+            <button class="action-button">5</button>
+            <button class="action-button">6</button>
+            <button class="action-button">*</button>
+        </div>
+        <div class="row">
+            <button class="action-button">1</button>
+            <button class="action-button">2</button>
+            <button class="action-button">3</button>
+            <button class="action-button">-</button>
+        </div>
+        <div class="row">
+            <button class="action-button">0</button>
+            <button class="action-button">.</button>
+            <button class="equal">=</button>
+            <button class="action-button">+</button>
+        </div>
+    </div>
 </body>
 </html>

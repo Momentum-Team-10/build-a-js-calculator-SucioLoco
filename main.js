@@ -1,8 +1,27 @@
-// let clear = document.getElementById("clear")
-const button = document.getElementsByClassName("button")
+let currentValues = []
+let buttons = document.querySelectorAll(".action-button")
+let equal = document.querySelector(".equal")
+let display = document.querySelector(".current-output")
+let clear = document.querySelector(".clear")
 
-var div = document.getElementsByClassName('button')[0];
+for (let button of buttons){
+	button.addEventListener("click", function(){
+  	currentValues.push(button.innerText)
+    display.innerText = currentValues.join("")
+    console.log(currentValues)
+  });
+}
 
- div.addEventListener('click', function () {
-     alert('Hi!');
- });
+equal.addEventListener("click", function(){
+	let outputValue = currentValues.join("")
+  console.log(outputValue)
+  console.log(eval(outputValue))
+  display.innerText = eval(outputValue)
+  currentValues = []
+})
+
+clear.addEventListener("click", function(){
+	let outputValue = currentValues = []
+    display.innerText = outputValue
+  
+})
